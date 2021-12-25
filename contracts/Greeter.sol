@@ -1,6 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.4;
 
+//Despite signaling an error, this works fine. If the path is updated to "../node_modules/hardhat/console.sol" compilation fails
 import "hardhat/console.sol";
 
 contract Greeter {
